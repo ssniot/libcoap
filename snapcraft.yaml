@@ -9,7 +9,7 @@ parts:
     plugin: autotools
     source: https://github.com/obgm/libcoap
     source-type: git
-    build-packages: pkg-config
+    build-packages: [pkg-config]
     configflags:
             - --disable-documentation
 
