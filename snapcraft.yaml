@@ -1,0 +1,15 @@
+name: libcoap
+version: 0.1
+summary: CoAP Client
+description:
+  Example building of coap-client from github source
+
+parts:
+  libcoap:
+    plugin: autotools
+    source: https://github.com/obgm/libcoap
+    source-type: git
+
+apps:
+  coap-client-cli:
+    command: coap-client
