@@ -9,6 +9,7 @@ parts:
     plugin: autotools
     source: https://github.com/obgm/libcoap
     source-type: git
+    build-packages: [pkg-config, asciidoc]
 
 apps:
   coap-client-cli:
